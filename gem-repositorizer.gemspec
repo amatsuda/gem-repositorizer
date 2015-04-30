@@ -1,11 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'gem/repositorizer/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "gem-repositorizer"
-  spec.version       = Gem::Repositorizer::VERSION
+  spec.version       = '0.0.1'
   spec.authors       = ["Akira Matsuda"]
   spec.email         = ["ronnie@dio.jp"]
 
